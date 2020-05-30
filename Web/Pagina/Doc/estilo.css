@@ -1,0 +1,126 @@
+#div{
+    margin-left:150px; 
+    margin-right:150px;
+}
+
+#td2{
+    width: 1200px;
+    margin: 0px;
+    padding: 5px;
+    text-align: justify;
+}
+
+#foto{
+    width:80%;
+}
+
+#td{
+    width: 300px;
+ 
+}
+
+#alinea{
+    text-align: left;
+}
+
+#icono{
+    width:5%
+}
+
+#td3{
+    width: 240px;
+    margin: 0px;
+    padding-left: 5px;
+    text-align: left;
+ 
+}
+
+#div2{
+    padding-left: 130px;
+    text-align: left;
+}
+
+#div3{
+    margin-left:150px; 
+    margin-right:150px;
+    color: black;
+}
+
+#divmodal{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#bt1{
+    
+    color: white;
+}
+
+#bt2{
+    padding-left: 173px;
+    padding-right: 173px;
+    color: white;
+}
+
+#div4{
+    margin-left:165px; 
+    margin-right:165px;
+    
+}
+
+#div10{
+    margin-left:150px; 
+    margin-right:150px;
+}
+
+#bt3{
+    padding-left: 410px;
+    padding-right: 410px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+}
+
+#form{
+    padding: 50px;
+}
+
+#div5{
+    margin-top: 10px;
+}
+
+#p{
+    text-align: justify;
+}
+
+#bt4{
+    color: white;
+}
+
+#imgs{
+    width: 500px;
+}
+
+#imgs2{
+    width: 210px;
+}
+
+#img3{
+    width: 25%;
+}
+
+#imgs5{
+    width: 270px;
+}
+
+#form{
+    border: #DF001B 4px solid;
+}
+
+#color{
+    color: #FFF977;
+}
+
+#texto{
+    text-align: left;
+}

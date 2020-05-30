@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link type="text/css" rel="stylesheet" href="../Doc/materialize/css/materialize.min.css" media="screen,projection">
+  <link type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <LINK REL=StyleSheet HREF="../Doc/estilo.css" TYPE="text/css" media="screen">
+    
+    <script> 
+         document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+         });
+    </script>
+   
+    
+</head>
+<body>
+    
+    <!-- Barra de navegación-->
+    <nav class="nav-extended" style="background-color: #DF001B;">
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo" id="color"><FONT SIZE="4"><B>CREATIVIDAD SIN LUJOS</B></FONT></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <!-- Menu para dispositivos móviles-->
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="../Index.html">Regresar</a></li>
+        </ul>
+      </div>
+        
+        </div>
+        <div class="nav-content">
+            <!--Menu principal-->
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="#">Registrate</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="../index.html">Regresar</a></li>
+      </ul>
+
+     
+      
+      <br>
+    
+    
+    <div class="row" id="div10">
+      <form class="col s12" id=form>
+        <div class="row">
+          <div class="input-field col s12 m6">
+            <input  id="Nombre_Completo" type="text" class="validate">
+            <label for="Nombre_Completo">Nombre Completo</label>
+          </div>
+          <div class="input-field col s12 m6">
+            <input id="Correo_Electronico" type="text" class="validate">
+            <label for="Correo_Electronico">Correo Electronico</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m6">
+            <input id="Password" type="text" class="validate">
+            <label for="Password"> Password</label>
+          </div>
+          <div class="input-field col s12 m6">
+            <input id="Confirma" type="text" class="validate">
+            <label for="Confirma">Confirmar Password</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <div class="file-field input-field">
+              <div class="btn">
+                <span>File</span>
+                <input type="file" id="File" multiple>
+              </div>
+              <div class="file-path-wrapper">
+                <input class="file-path validate" type="text" placeholder="Upload one or more files">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12 m6">
+            <select id="Sexo" >
+              <option value="" disabled selected>Selecciona</option>
+              <option value="1">Hombre</option>
+              <option value="2">Mujer</option>
+              <option value="3">Perzonalizado</option>
+            </select>
+            <label>Sexo</label>
+          </div>
+          <div class="input-field col s12 m6">
+            <input id="Telefono" type="text" class="validate">
+            <label for="Telefono">Telefono</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <textarea id="Comentario" class="materialize-textarea" data-length="120"></textarea>
+            <label for="Comentario">Describete</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <center><div ><b id="error"></b></div></center>
+            <input value="Confirmar" class="waves-effect waves-light btn" type="submit" id="bt4" onclick="return enviarformularios();"> 
+          </div>
+        </div>
+      </form>
+      <script src="app2.js"></script>
+    </div>
+    
+    <br>
+
+    <footer class="page-footer" style="background-color: #DF001B;">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12" id="alinea">
+            <h5 class="white-text">¿Quieres mas informacion?</h5>
+            <p class="grey-text text-lighten-4">Contactame conmigo para resolver cualquiera de tus dudas, te
+              dejo mis redes sociales.
+            </Te></Tem></p>
+          </div>
+          <div class="col l6 s12" id="div2">
+            <h5 class="white-text">Contacto</h5>
+            <ul>
+              <li><img src="../imagenes/facebook.png" id="icono"><a class="grey-text text-lighten-3" href="#!"><font size=4>Brandon Giovanni Méndez Rodríguez</font></a></li>
+              <li><img src="../imagenes/gmail.png" id="icono"><a class="grey-text text-lighten-3" href="#!"><font size=4>giomendezrdz1@gmail.com</font></a></li>
+              <li><img src="../imagenes/whatsapp.png" id="icono"><a class="grey-text text-lighten-3" href="#!"><font size=4>418 104 3186</font></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        <center>© 2020 Copyright Text</center>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../Doc/materialize/js/materialize.js"></script>
+    <script src="../Doc/materialize/js/materialize.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+      });
+  </script>
+    
+</body>
+</html>

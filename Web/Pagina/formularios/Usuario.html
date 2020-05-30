@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materialize</title>
+    <link type="text/css" rel="stylesheet" href="../Doc/materialize/css/materialize.min.css" media="screen,projection">
+    <link type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <LINK REL=StyleSheet HREF="../Doc/estilo.css" TYPE="text/css" media="screen">
+    
+    <script> 
+         document.addEventListener('DOMContentLoaded', function() {
+            M.AutoInit();
+         });
+    </script>
+</head>
+<body>
+    
+    <!-- Barra de navegación-->
+    <nav class="nav-extended" style="background-color: #DF001B;">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo" id="color"><FONT SIZE="4"><B>CREATIVIDAD SIN LUJOS</B></FONT></a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <!-- Menu para dispositivos móviles-->
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="Nuevo.html">Subir cancion</a></li>
+            <li><a href="NuevoComedia.html">Subir comedia</a></li>
+            <li><a href="Nuevopodcast.html">Subir podcast</a></li>
+            <li><a href="Nuevocortometraje.html">Subir cortometraje</a></li>
+           <li><a href="../Index.html">Cerrar sesion</a></li>
+         </ul>
+        </div>
+        <div class="nav-content">
+            <!--Menu principal-->
+          <ul class="tabs tabs-transparent">
+            <li class="tab"><a href="#perfil">Mi perfil</a></li>           
+            <li class="tab"><a href="#contenido">Vizualiza contenido</a></li>
+         
+          </ul>
+        </div>
+      </nav>
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="Nuevo.html">Subir cancion</a></li>
+            <li><a href="NuevoComedia.html">Subir comedia</a></li>
+            <li><a href="Nuevopodcast.html">Subir podcast</a></li>
+            <li><a href="Nuevocortometraje.html">Subir cortometraje</a></li>
+           <li><a href="../Index.html">Cerrar sesion</a></li>
+      </ul>
+    
+      
+     
+      
+
+    <div id="perfil" class="col s12">
+
+      <div class="row">
+        <div id="div">
+          <div class="col s12"><center><h3 id="SN">Bienvenid@ Landon</h3></center><hr></div>
+        <div class="col s12 m4"><center><img class="responsive-img" id="imgs2" src="../imagenes/usuario.jpg"></center></div>
+        <div class="col s12 m8 "><p id="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate modi natus alias neque odio fugit mollitia vitae velit. Placeat quibusdam repellendus, maxime vero veniam debitis illo quam neque cupiditate!
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus provident magnam deserunt, non natus maxime dolor debitis consequuntur nam error, architecto cumque, ad porro doloribus voluptates mollitia dicta. Numquam, incidunt.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sed minima, ullam molestias explicabo expedita dolorum doloribus enim eum ipsum. Iste quaerat dignissimos enim possimus exercitationem accusantium provident inventore ipsa.
+          </p></div>
+        </div>
+      </div>
+
+      <!---->
+      <div id="div">
+        <center><h3 id="ob">Mi contenido </h3></center><hr>
+        <!--canciones-->
+        <div><h5>Canciones</h5></div>
+        <div class="row">
+          <div class="col s12 m6 |3" >
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Gris normal<i class="material-icons right">more_vert</i></span>
+                 
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                  <p><b>Genero:</b> Rock<br>
+                    <b>Votos:</b> 109<br></p>
+                </div>
+              </div>
+              </center>
+          </div>
+          <div class="col s12 m6 |3" >
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Decepcionante<i class="material-icons right">more_vert</i></span>
+                  
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                  <p><b>Genero:</b> Rock<br>
+                    <b>Votos:</b> 27<br></p>
+                </div>
+              </div>
+              </center>
+          </div>
+          <div class="col s12 m6 |3">
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Rock sin aire<i class="material-icons right">more_vert</i></span>
+                 
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                  <p><b>Genero:</b> Rock<br>
+               |   <b>Votos:</b> 59<br></p>
+                </div>
+              </div>
+              </center>
+          </div>
+          <div class="col s12 m6 |3">
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Perfumes de amor<i class="material-icons right">more_vert</i></span>
+                  
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                  <p><b>Genero:</b> Pop<br>
+                    <b>Votos:</b> 67<br></p>
+                </div>
+              </div>
+              </center>
+          </div>
+      </div>
+      <!--canciones-->
+        <!--Comedia-->
+        <div><h5>Comedia</h5></div>
+        <div class="row">
+          <div class="col s12 m6 |3" >
+
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <video   class="responsive-video" controls><source src='../Archivos/comedia.mp4' id="img3"type='video/webm'></video>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Viejitas<i class="material-icons right">more_vert</i></span>
+                 
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                
+                    <b>Votos:</b> 210<br></p>
+                </div>
+              </div>
+              </center>
+
+          </div>
+          <div class="col s12 m6 |3" >
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <video   class="responsive-video" controls><source src='../Archivos/comedia.mp4' type='video/webm'></video>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">La peda en Mexico<i class="material-icons right">more_vert</i></span>
+                  
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                  
+                    <b>Votos:</b> 329<br></p>
+                </div>
+              </div>
+              </center>
+          </div>
+          <div class="col s12 m6 |3">
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <video   class="responsive-video" controls><source src='../Archivos/comedia.mp4' type='video/webm'></video>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Futbol de mentira<i class="material-icons right">more_vert</i></span>
+       
+                </div>
+                <div class="card-reveal" id="texto"> 
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                
+                    <b>Votos:</b> 31<br></p>
+                </div>
+              </div>
+              </center>
+          </div>
+          <div class="col s12 m6 |3">
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <video   class="responsive-video" controls><source src='../Archivos/comedia.mp4' type='video/webm'></video>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4"> Camaras en bancas<i class="material-icons right">more_vert</i></span>
+                
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                  
+                    <b>Votos:</b> 11<br></p>
+                </div>
+              </div>
+              </center>
+          </div>
+      </div>
+      <!--Comedia-->
+      <!--podcast-->
+      <div><h5>Podcast</h5></div>
+      <div class="row">
+        <div class="col s12 m6 |3" >
+          <center>
+            <div class="card" >
+              <div class="card-image waves-effect waves-block waves-light" >
+                <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Te lo cuento asi 1<i class="material-icons right">more_vert</i></span>
+               
+              </div>
+              <div class="card-reveal" id="texto">
+                <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                <p id="p"><b>Categoria:</b> Noticia<br>
+                  <b>Usuario:</b> Itzel Hernandez<br>
+                  <b>Descripcion: </b id="p"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate modi natus alias neque odio fugit mollitia vitae velit. Placeat quibusdam repellendus, maxime vero veniam debitis illo quam neque cupiditate<br></p>
+              </div>
+            </div>
+            </center>
+        </div>
+        <div class="col s12 m6 |3" >
+          <center>
+            <div class="card" >
+              <div class="card-image waves-effect waves-block waves-light" >
+                <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Te lo cuento asi 2<i class="material-icons right">more_vert</i></span>
+        
+              </div>
+              <div class="card-reveal" id="texto">
+                <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                <p id="p"><b>Categoria:</b> Noticia<br>
+                  <b>Usuario:</b> Itzel Hernandez<br>
+                  <b>Descripcion: </b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate modi natus alias neque odio fugit mollitia vitae velit. Placeat quibusdam repellendus, maxime vero veniam debitis illo quam neque cupiditate<br></p>
+              </div>
+            </div>
+            </center>
+        </div>
+        <div class="col s12 m6 |3">
+          <center>
+            <div class="card" >
+              <div class="card-image waves-effect waves-block waves-light" >
+                <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Te lo cuento asi 3<i class="material-icons right">more_vert</i></span>
+               
+              </div>
+              <div class="card-reveal" id="texto">
+                <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                <p id="p"><b>Categoria:</b> Noticia<br>
+                  <b>Usuario:</b> Itzel Hernandez<br>
+                  <b>Descripcion: </b > Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate modi natus alias neque odio fugit mollitia vitae velit. Placeat quibusdam repellendus, maxime vero veniam debitis illo quam neque cupiditate<br></p>
+              </div>
+            </div>
+            </center>
+        </div>
+        <div class="col s12 m6 |3">
+          <center>
+            <div class="card" >
+              <div class="card-image waves-effect waves-block waves-light" >
+                <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Te lo cuento asi 4<i class="material-icons right">more_vert</i></span>
+               
+              </div>
+              <div class="card-reveal" id="texto">
+                <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                <p id="p"><b>Categoria:</b> Noticia<br>
+                  <b>Usuario:</b> Itzel Hernandez<br>
+                  <b>Descripcion: </b > Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate modi natus alias neque odio fugit mollitia vitae velit. Placeat quibusdam repellendus, maxime vero veniam debitis illo quam neque cupiditate<br></p>
+              </div>
+            </div>
+            </center>
+        </div>
+    </div>
+    <!--podcast-->
+     <!--Cortometraje-->
+     <div><h5>Cortometraje</h5></div>
+     <div class="row">
+       <div class="col s12 m6 |3" >
+
+         <center>
+           <div class="card" >
+             <div class="card-image waves-effect waves-block waves-light" >
+               <video   class="responsive-video" controls><source src='../Archivos/cortometraje.mp4' id="img3"type='video/webm'></video>
+             </div>
+             <div class="card-content">
+               <span class="card-title activator grey-text text-darken-4">El mundo<i class="material-icons right">more_vert</i></span>
+          
+             </div>
+             <div class="card-reveal" id="texto">
+               <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+              </p>
+                 <b>Votos:</b> 88<br></p>
+             </div>
+           </div>
+           </center>
+
+       </div>
+       <div class="col s12 m6 |3" >
+         <center>
+           <div class="card" >
+             <div class="card-image waves-effect waves-block waves-light" >
+               <video   class="responsive-video" controls><source src='../Archivos/cortometraje.mp4' type='video/webm'></video>
+             </div>
+             <div class="card-content">
+               <span class="card-title activator grey-text text-darken-4">Platos rotos<i class="material-icons right">more_vert</i></span>
+               
+             </div>
+             <div class="card-reveal" id="texto">
+               <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+             </p>
+                 <b>Votos:</b> 99<br></p>
+             </div>
+           </div>
+           </center>
+       </div>
+       <div class="col s12 m6 |3">
+         <center>
+           <div class="card" >
+             <div class="card-image waves-effect waves-block waves-light" >
+               <video   class="responsive-video" controls><source src='../Archivos/cortometraje.mp4' type='video/webm'></video>
+             </div>
+             <div class="card-content">
+               <span class="card-title activator grey-text text-darken-4">Generacion nueva<i class="material-icons right">more_vert</i></span>
+             
+             </div>
+             <div class="card-reveal" id="texto">
+               <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+               <p>
+                 <b>Votos:</b> 99<br></p>
+             </div>
+           </div>
+           </center>
+       </div>
+       <div class="col s12 m6 |3">
+         <center>
+           <div class="card" >
+             <div class="card-image waves-effect waves-block waves-light" >
+               <video   class="responsive-video" controls><source src='../Archivos/cortometraje.mp4' type='video/webm'></video>
+             </div>
+             <div class="card-content">
+               <span class="card-title activator grey-text text-darken-4">El fin del mundo<i class="material-icons right">more_vert</i></span>
+            
+             </div>
+             <div class="card-reveal" id="texto">
+               <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+               <p>
+                 <b>Votos:</b> 99<br></p>
+             </div>
+           </div>
+           </center>
+       </div>
+   </div>
+   <!--cortometraje-->
+      </div>
+      <!---->
+    </div>
+   
+
+    <div id="contenido"class="col s12">
+      
+      <div id="div">
+        <center><h3 id="ob">Contenido de otros usuarios </h3></center><hr>
+        <!--canciones-->
+        <div><h5>Canciones</h5></div>
+        <div class="row">
+          <div class="col s12 m6 |3" >
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Cenit<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">Votar</a></p>
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                  <p><b>Genero:</b> Rock<br>
+                    <b>Usuario:</b> Itzel Hernandez<br>
+                    <b>Votos:</b> 330<br></p>
+                </div>
+              </div>
+              </center>
+          </div>
+          <div class="col s12 m6 |3" >
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">LLevame<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">Votar</a></p>
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                  <p><b>Genero:</b> Pop<br>
+                    <b>Usuario:</b> Karla Rosas<br>
+                    <b>Votos:</b> 51<br></p>
+                </div>
+              </div>
+              </center>
+          </div>
+          <div class="col s12 m6 |3">
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Chocolate<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">Votar</a></p>
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                  <p><b>Genero:</b> Rock<br>
+                    <b>Usuario:</b> Brenda Rodríguez<br>
+                    <b>Votos:</b> 29<br></p>
+                </div>
+              </div>
+              </center>
+          </div>
+          <div class="col s12 m6 |3">
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Estrella Gris<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">Votar</a></p>
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                  <p><b>Genero:</b> Rock<br>
+                    <b>Usuario:</b> Omar Carreon<br>
+                    <b>Votos:</b> 21<br></p>
+                </div>
+              </div>
+              </center>
+          </div>
+      </div>
+      <!--canciones-->
+        <!--Comedia-->
+        <div><h5>Comedia</h5></div>
+        <div class="row">
+          <div class="col s12 m6 |3" >
+
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <video   class="responsive-video" controls><source src='../Archivos/comedia.mp4' id="img3"type='video/webm'></video>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Aprender ingles caga<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">Votar</a></p>
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                  <p><b>Usuario:</b>Luisa Mendoza<br>
+                    <b>Votos:</b> 110<br></p>
+                </div>
+              </div>
+              </center>
+
+          </div>
+          <div class="col s12 m6 |3" >
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <video   class="responsive-video" controls><source src='../Archivos/comedia.mp4' type='video/webm'></video>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Viejitas<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">Votar</a></p>
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                  <p><b>Usuario:</b> Itzel Perez<br>
+                    <b>Votos:</b> 98<br></p>
+                </div>
+              </div>
+              </center>
+          </div>
+          <div class="col s12 m6 |3">
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <video   class="responsive-video" controls><source src='../Archivos/comedia.mp4' type='video/webm'></video>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Viejitas<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">Votar</a></p>
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                  <p><b>Usuario:</b> Genaro Ezparza <br>
+                    <b>Votos:</b> 87<br></p>
+                </div>
+              </div>
+              </center>
+          </div>
+          <div class="col s12 m6 |3">
+            <center>
+              <div class="card" >
+                <div class="card-image waves-effect waves-block waves-light" >
+                  <video   class="responsive-video" controls><source src='../Archivos/comedia.mp4' type='video/webm'></video>
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Contando chistes<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">Votar</a></p>
+                </div>
+                <div class="card-reveal" id="texto">
+                  <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                  <p><b>Usuario:</b> Aldo Rocha<br>
+                    <b>Votos:</b> 67<br></p>
+                </div>
+              </div>
+              </center>
+          </div>
+      </div>
+      <!--Comedia-->
+      <!--podcast-->
+      <div><h5>Podcast</h5></div>
+      <div class="row">
+        <div class="col s12 m6 |3" >
+          <center>
+            <div class="card" >
+              <div class="card-image waves-effect waves-block waves-light" >
+                <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Hablando de musica<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">Votar</a></p>
+              </div>
+              <div class="card-reveal" id="texto">
+                <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                <p id="p"><b>Categoria:</b> Noticia<br>
+                  <b>Usuario:</b> Hernan COrtez<br>
+                  <b>Votos:</b> 37<br>
+                  <b>Descripcion: </b > Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate modi natus alias neque odio fugit mollitia vitae velit. Placeat quibusdam repellendus, maxime vero veniam debitis illo quam neque cupiditate<br></p>
+              </div>
+            </div>
+            </center>
+        </div>
+        <div class="col s12 m6 |3" >
+          <center>
+            <div class="card" >
+              <div class="card-image waves-effect waves-block waves-light" >
+                <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Evolución 2<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">Votar</a></p>
+              </div>
+              <div class="card-reveal" id="texto">
+                <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                <p id="p"><b>Categoria:</b> Noticia<br>
+                  <b>Usuario:</b> Ana Temez<br>
+                  <b>Votos:</b> 77<br>
+                  <b>Descripcion: </b > Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate modi natus alias neque odio fugit mollitia vitae velit. Placeat quibusdam repellendus, maxime vero veniam debitis illo quam neque cupiditate<br></p>
+              </div>
+            </div>
+            </center>
+        </div>
+        <div class="col s12 m6 |3">
+          <center>
+            <div class="card" >
+              <div class="card-image waves-effect waves-block waves-light" >
+                <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Tecnologia 3<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">Votar</a></p>
+              </div>
+              <div class="card-reveal" id="texto">
+                <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                <p id="p"><b>Categoria:</b> Noticia<br>
+                  <b>Usuario:</b> Itzel Hernandez<br>
+                  <b>Votos:</b> 201<br>
+                  <b>Descripcion: </b > Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate modi natus alias neque odio fugit mollitia vitae velit. Placeat quibusdam repellendus, maxime vero veniam debitis illo quam neque cupiditate<br></p>
+              </div>
+            </div>
+            </center>
+        </div>
+        <div class="col s12 m6 |3">
+          <center>
+            <div class="card" >
+              <div class="card-image waves-effect waves-block waves-light" >
+                <audio class="responsive-video" src="../Archivos/cancion.mp3" preload="none" controls></audio>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Fubol rapido<i class="material-icons right">more_vert</i></span>
+                <p><a href="#">Votar</a></p>
+              </div>
+              <div class="card-reveal" id="texto">
+                <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+                <p id="p"><b>Categoria:</b> Deportes<br>
+                  <b>Usuario:</b> Carol Lopez<br>
+                  <b>Votos:</b> 91<br>
+                  <b>Descripcion: </b > Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo cupiditate modi natus alias neque odio fugit mollitia vitae velit. Placeat quibusdam repellendus, maxime vero veniam debitis illo quam neque cupiditate<br></p>
+              </div>
+            </div>
+            </center>
+        </div>
+    </div>
+    <!--podcast-->
+     <!--Cortometraje-->
+     <div><h5>Cortometraje</h5></div>
+     <div class="row">
+       <div class="col s12 m6 |3" >
+
+         <center>
+           <div class="card" >
+             <div class="card-image waves-effect waves-block waves-light" >
+               <video   class="responsive-video" controls><source src='../Archivos/cortometraje.mp4' id="img3"type='video/webm'></video>
+             </div>
+             <div class="card-content">
+               <span class="card-title activator grey-text text-darken-4">Basquetbol de mundo<i class="material-icons right">more_vert</i></span>
+               <p><a href="#">Votar</a></p>
+             </div>
+             <div class="card-reveal" id="texto">
+               <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+               <p><b>Usuario:</b> Mauro Barra<br>
+                 <b>Votos:</b> 222<br></p>
+             </div>
+           </div>
+           </center>
+
+       </div>
+       <div class="col s12 m6 |3" >
+         <center>
+           <div class="card" >
+             <div class="card-image waves-effect waves-block waves-light" >
+               <video   class="responsive-video" controls><source src='../Archivos/cortometraje.mp4' type='video/webm'></video>
+             </div>
+             <div class="card-content">
+               <span class="card-title activator grey-text text-darken-4">El mundo cambia 3<i class="material-icons right">more_vert</i></span>
+               <p><a href="#">Votar</a></p>
+             </div>
+             <div class="card-reveal" id="texto">
+               <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+               <p><b>Usuario:</b> Fernando Navarro<br>
+                 <b>Votos:</b> 224<br></p>
+             </div>
+           </div>
+           </center>
+       </div>
+       <div class="col s12 m6 |3">
+         <center>
+           <div class="card" >
+             <div class="card-image waves-effect waves-block waves-light" >
+               <video   class="responsive-video" controls><source src='../Archivos/cortometraje.mp4' type='video/webm'></video>
+             </div>
+             <div class="card-content">
+               <span class="card-title activator grey-text text-darken-4">El mundo cambia 4<i class="material-icons right">more_vert</i></span>
+               <p><a href="#">Votar</a></p>
+             </div>
+             <div class="card-reveal" id="texto">
+               <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+               <p><b>Usuario:</b> Fernando Navarro<br>
+                 <b>Votos:</b> 58<br></p>
+             </div>
+           </div>
+           </center>
+       </div>
+       <div class="col s12 m6 |3">
+         <center>
+           <div class="card" >
+             <div class="card-image waves-effect waves-block waves-light" >
+               <video   class="responsive-video" controls><source src='../Archivos/cortometraje.mp4' type='video/webm'></video>
+             </div>
+             <div class="card-content">
+               <span class="card-title activator grey-text text-darken-4">El mundo<i class="material-icons right">more_vert</i></span>
+               <p><a href="#">Votar</a></p>
+             </div>
+             <div class="card-reveal" id="texto">
+               <span class="card-title grey-text text-darken-4">Informacion<i class="material-icons right">close</i></span>
+               <p><b>Usuario:</b> Itzel Hernandez<br>
+                 <b>Votos:</b> 99<br></p>
+             </div>
+           </div>
+           </center>
+       </div>
+   </div>
+   <!--cortometraje-->
+      </div>
+      
+    </div>
+
+    
+    <br>
+    
+
+    <footer class="page-footer" style="background-color: #DF001B;"> 
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12" id="alinea">
+            <h5 class="white-text">¿Quieres mas informacion?</h5>
+            <p class="grey-text text-lighten-4">Contactame conmigo para resolver cualquiera de tus dudas, te
+              dejo mis redes sociales.
+            </Te></Tem></p>
+          </div>
+          <div class="col l6 s12" id="div2">
+            <h5 class="white-text">Contacto</h5>
+            <ul>
+              <li><img src="../imagenes/facebook.png" id="icono"><a class="grey-text text-lighten-3" href="#!"><font size=4>Brandon Giovanni Méndez Rodríguez</font></a></li>
+              <li><img src="../imagenes/gmail.png" id="icono"><a class="grey-text text-lighten-3" href="#!"><font size=4>giomendezrdz1@gmail.com</font></a></li>
+              <li><img src="../imagenes/whatsapp.png" id="icono"><a class="grey-text text-lighten-3" href="#!"><font size=4>418 104 3186</font></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <center>© 2020 Copyright Text</center>
+        
+        </div>
+      </div>
+    </footer>
+
+    <script src="../Doc/materialize/js/materialize.js"></script>
+    <script src="../Doc/materialize/js/materialize.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+      });
+  </script>
+    
+</body>
+</html>
